@@ -1,0 +1,7 @@
+def getItem( self , i):
+    if(self.size() < i):
+        print('out of index')
+    for k in range (i):
+        if(k==(i-1)):
+            return self.front()
+        self.dequeue()
